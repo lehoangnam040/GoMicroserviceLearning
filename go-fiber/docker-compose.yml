@@ -1,0 +1,7 @@
+version: '2.3'
+
+services:
+  fiber:
+    image: go-fiber:0.1
+    ports:
+      - 5000:5000
