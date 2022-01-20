@@ -88,4 +88,17 @@ có 2 struct với cấu trúc giống hệt nhau, khai báo 2 biến e1 và e2 
 ## 2.13 Garbage Collection
 - khi 1 value được khởi tạo trong heap, thì GC sẽ đc sử dụng. 
 
+## 2.14 Constant
 
+2 kiểu constant: 
+- constant of a kind: kiểu dữ liệu được compiler xác định khi compile
+- constant of a type: xác định kiểu dữ liệu khi code
+
+## 2.15 IOTA
+```
+const (
+	A2 = iota 	// 0 : Start at 0
+	B2		// 1 : Increment by 1
+	C2		// 2 : Increment by 1
+)
+```
